@@ -1,0 +1,71 @@
+{
+  "name": { "en": "Grigorii Barabanov", "ru": "Григорий Барабанов" },
+  "photo": "/photo/me2.png",
+  "cv": "/cv/Grigorii_Barabanov_CV.pdf",
+  "cvFileName": "Grigorii_Barabanov_CV.pdf",
+  "roles": [
+    { "en": "Frontend Team Lead", "ru": "Фронтенд Тимлид" },
+    { "en": "Go Backend Engineer", "ru": "Go Бэкенд-инженер" },
+    { "en": "Full-Stack Developer", "ru": "Фулстек-разработчик" },
+    { "en": "AI Integration Engineer", "ru": "Инженер AI-интеграций" },
+    { "en": "Mentor & Teacher", "ru": "Ментор и преподаватель" }
+  ],
+  "tagline": {
+    "en": "Engineer with 5+ years of expertise building high-scale web products at VK, Yandex and Navio. Deep frontend mastery — from rendering performance to design systems — now channeling it into backend engineering with Go: bots, services, APIs and infrastructure. Plus a growing edge in applied AI: LLM integration, prompt engineering and AI-driven tooling.",
+    "ru": "Инженер с опытом 5+ лет в разработке высоконагруженных веб-продуктов в VK, Яндексе и Navio. Глубокая экспертиза во фронтенде — от производительности рендеринга до дизайн-систем — которую я направляю в бэкенд-разработку на Go: боты, сервисы, API и инфраструктура. Плюс растущая экспертиза в прикладном AI: интеграция LLM, промпт-инжиниринг и AI-инструменты."
+  },
+  "about": {
+    "title": { "en": "Frontend roots. Backend ambitions.", "ru": "Фронтенд-корни. Бэкенд-амбиции." },
+    "paragraphs": [
+      {
+        "en": "I've spent 5+ years shipping products used by millions: news feed at VK with 50M+ daily users, business services at Yandex, and a teleoperations platform for autonomous vehicles at Navio, where I lead a team of 8 engineers.",
+        "ru": "Больше 5 лет я создаю продукты, которыми пользуются миллионы: лента новостей ВКонтакте с 50M+ активных пользователей в день, бизнес-сервисы Яндекса и платформа телеопераций для беспилотных автомобилей в Navio, где я руковожу командой из 8 инженеров."
+      },
+      {
+        "en": "But I've never been \"just a frontender\". At VK I worked with the PHP backend of vk.com daily and rewrote legacy PHP + JS pages. At Navio I built a production Mattermost bot in Go that talks to Jira, Confluence and our deploy pipeline, and can even answer project questions through Cursor CLI and LLMs. I design REST APIs, write Node.js services, configure Nginx and Docker.",
+        "ru": "Но я никогда не был «просто фронтендером». В VK я ежедневно работал с PHP-бэкендом vk.com и переписывал легаси-страницы с PHP + JS. В Navio я написал продакшен-бота для Mattermost на Go, который интегрирован с Jira, Confluence и деплой-пайплайном, и даже отвечает на вопросы о проекте через Cursor CLI и LLM. Я проектирую REST API, пишу сервисы на Node.js, настраиваю Nginx и Docker."
+      },
+      {
+        "en": "I'm deliberately growing into backend with Go — but I'm equally open to strong frontend and full-stack roles. I bring product thinking, an obsession with performance, and the rare superpower of understanding both sides of the API.",
+        "ru": "Я осознанно расту в бэкенд на Go — но так же открыт к сильным фронтенд- и фулстек-ролям. Забираю с собой продуктовое мышление, одержимость производительностью и редкую суперсилу: понимание обеих сторон API."
+      }
+    ]
+  },
+  "stats": [
+    { "value": "5+", "label": { "en": "years of engineering", "ru": "лет в разработке" } },
+    { "value": "8", "label": { "en": "engineers in my team", "ru": "инженеров в моей команде" } },
+    { "value": "50M+", "label": { "en": "DAU of products I built", "ru": "DAU продуктов, что я делал" } },
+    { "value": "3", "label": { "en": "backend languages: Go, PHP, Node.js", "ru": "языка бэкенда: Go, PHP, Node.js" } }
+  ],
+  "contacts": {
+    "email": "grishbar@mail.ru",
+    "phone": "+7 (967) 907-82-34",
+    "telegram": "https://t.me/grishbar",
+    "github": "https://github.com/grishbar",
+    "linkedin": "https://linkedin.com/in/gregory-barabanov",
+    "location": { "en": "Moscow, Russia", "ru": "Москва, Россия" },
+    "relocation": {
+      "en": "Open to relocation · especially Japan",
+      "ru": "Открыт к релокации · особенно Япония"
+    }
+  },
+  "spokenLanguages": [
+    { "name": { "en": "English", "ru": "Английский" }, "level": { "en": "C1 — Advanced", "ru": "C1 — Продвинутый" } },
+    { "name": { "en": "Russian", "ru": "Русский" }, "level": { "en": "Native", "ru": "Родной" } }
+  ],
+  "education": [
+    {
+      "university": {
+        "en": "Ural Federal University named after B.N. Yeltsin",
+        "ru": "Уральский федеральный университет им. Б.Н. Ельцина"
+      },
+      "degree": { "en": "Applied Computer Science", "ru": "Прикладная информатика" },
+      "faculty": {
+        "en": "Institute of Natural Sciences and Mathematics",
+        "ru": "Институт естественных наук и математики"
+      },
+      "location": { "en": "Ekaterinburg", "ru": "Екатеринбург" },
+      "period": "2016 — 2021"
+    }
+  ]
+}

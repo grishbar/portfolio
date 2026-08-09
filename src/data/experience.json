@@ -1,0 +1,134 @@
+{
+  "jobs": [
+    {
+      "id": "navio",
+      "company": "Navio",
+      "url": "https://navio.auto/en",
+      "logo": "/logos/navio.png",
+      "accent": "#22d3ee",
+      "role": { "en": "Frontend Team Lead", "ru": "Фронтенд Тимлид" },
+      "period": { "en": "May 2024 — Present", "ru": "Май 2024 — н.в." },
+      "summary": {
+        "en": "Leading a team of 8 engineers building a teleoperations service for remote control of autonomous vehicles — human intervention when the autopilot meets a challenge it can't solve.",
+        "ru": "Руковожу командой из 8 инженеров, разрабатывающей сервис телеопераций для удалённого управления беспилотными автомобилями — вмешательство человека, когда автопилот сталкивается с задачей, которую не может решить сам."
+      },
+      "highlights": [
+        {
+          "en": "Built a Mattermost bot in Go integrated with Jira, Confluence and the internal deploy pipeline: switches vehicle environments, triggers deployments and answers project questions via Cursor CLI + LLM.",
+          "ru": "Написал бота для Mattermost на Go с интеграцией с Jira, Confluence и внутренним деплой-пайплайном: переключает окружения машин, запускает деплои и отвечает на вопросы о проекте через Cursor CLI + LLM.",
+          "backend": true
+        },
+        {
+          "en": "Designed and built a staff permissions service from scratch to regulate access for controlling autonomous vehicles.",
+          "ru": "Спроектировал и построил с нуля сервис управления правами сотрудников, регулирующий доступ к управлению беспилотными автомобилями.",
+          "backend": true
+        },
+        {
+          "en": "Spearheaded the teleoperations platform: collaboration with product owners, backend engineers and QA; end-to-end feature delivery from planning to production.",
+          "ru": "Возглавил разработку платформы телеопераций: работа с продакт-оунерами, бэкенд-инженерами и QA; полный цикл поставки фич от планирования до продакшена."
+        },
+        {
+          "en": "Engineered a local teleoperation system: operators control vehicles directly from a laptop in a local network — full vehicle management with zero infrastructure dependency.",
+          "ru": "Разработал локальную систему телеопераций: операторы управляют машинами напрямую с ноутбука в локальной сети — полное управление без зависимости от инфраструктуры."
+        },
+        {
+          "en": "Own parts of the ops loop: Nginx configuration, deploy pipelines and DevOps tooling around the platform.",
+          "ru": "Отвечаю за часть эксплуатации: конфигурация Nginx, деплой-пайплайны и DevOps-инструменты вокруг платформы.",
+          "backend": true
+        },
+        {
+          "en": "Mentored a mid-level engineer to senior-level proficiency through coaching and hands-on support.",
+          "ru": "Вырастил мидл-инженера до уровня сеньора через коучинг и практическую поддержку."
+        }
+      ],
+      "tags": ["Go / Golang", "Bot Development", "AI Integration", "LLM / Prompt Engineering", "Nginx", "DevOps", "Mentoring", "Project Ownership", "React", "TypeScript"]
+    },
+    {
+      "id": "vk",
+      "company": "VK",
+      "url": "https://vk.com/",
+      "logo": "/logos/vk.png",
+      "accent": "#60a5fa",
+      "role": { "en": "Senior Frontend Developer", "ru": "Старший фронтенд-разработчик" },
+      "period": { "en": "Oct 2022 — May 2024", "ru": "Окт 2022 — Май 2024" },
+      "summary": {
+        "en": "News feed team — improving the experience of the VK feed with 50M+ daily active users.",
+        "ru": "Команда ленты новостей — улучшение опыта пользователей ленты ВКонтакте с 50M+ дневной аудиторией."
+      },
+      "highlights": [
+        {
+          "en": "Worked hands-on with vk.com's PHP backend: rewrote vk.com/friends/* pages from the legacy PHP + JS stack to React, Effector and TypeScript.",
+          "ru": "Работал напрямую с PHP-бэкендом vk.com: переписал страницы vk.com/friends/* с легаси-стека PHP + JS на React, Effector и TypeScript.",
+          "backend": true
+        },
+        {
+          "en": "Improved TTI and FCP metrics on the /feed page by ~7% at 50M+ DAU scale.",
+          "ru": "Улучшил метрики TTI и FCP на странице /feed на ~7% при масштабе 50M+ DAU."
+        },
+        {
+          "en": "Built product features on the user profile page, growing social interaction metrics by ~5% — impacting time spent and paid service uptake.",
+          "ru": "Разработал продуктовые фичи на странице профиля, увеличив метрики социальных взаимодействий на ~5% — это повлияло на время в продукте и покупки платных сервисов."
+        }
+      ],
+      "tags": ["PHP", "Site Optimization", "Product Development", "TypeScript", "React", "Effector", "High Load"]
+    },
+    {
+      "id": "yandex",
+      "company": "Yandex",
+      "url": "https://yandex.ru/company",
+      "logo": "/logos/yandex.png",
+      "accent": "#facc15",
+      "role": { "en": "Frontend Developer", "ru": "Фронтенд-разработчик" },
+      "period": { "en": "Sep 2020 — Oct 2022", "ru": "Сен 2020 — Окт 2022" },
+      "summary": {
+        "en": "Grew from Trainee to Middle across Yandex Zen, Yandex Business Trips and internal services.",
+        "ru": "Вырос от стажёра до мидла в Яндекс Дзене, Командировках и внутренних сервисах Яндекса."
+      },
+      "steps": [
+        { "role": { "en": "Middle Frontend Developer", "ru": "Мидл фронтенд-разработчик" }, "period": { "en": "May 2022 — Oct 2022", "ru": "Май 2022 — Окт 2022" } },
+        { "role": { "en": "Junior Frontend Developer", "ru": "Джуниор фронтенд-разработчик" }, "period": { "en": "Sep 2021 — May 2022", "ru": "Сен 2021 — Май 2022" } },
+        { "role": { "en": "Trainee Frontend Developer", "ru": "Стажёр фронтенд-разработчик" }, "period": { "en": "Jun 2021 — Sep 2021", "ru": "Июн 2021 — Сен 2021" } },
+        { "role": { "en": "Trainee Frontend Developer", "ru": "Стажёр фронтенд-разработчик" }, "period": { "en": "Sep 2020 — Jan 2021", "ru": "Сен 2020 — Янв 2021" } }
+      ],
+      "highlights": [
+        {
+          "en": "Implemented a universal API layer for interaction with multiple service providers — adding a new provider requires zero new frontend code.",
+          "ru": "Реализовал универсальный API-слой для работы с несколькими провайдерами услуг — добавление нового провайдера не требует ни строчки нового фронтенд-кода.",
+          "backend": true
+        },
+        {
+          "en": "Integrated Yandex Messenger, Yandex Notifications and other Yandex services into Business Trips.",
+          "ru": "Интегрировал Яндекс Мессенджер, Уведомления и другие сервисы Яндекса в Командировки."
+        },
+        {
+          "en": "Developed an NPM package collecting all icons, fonts and colors from projects; built a browser plugin for efficient code review comments.",
+          "ru": "Разработал NPM-пакет, собирающий все иконки, шрифты и цвета из проектов; создал браузерный плагин для удобных комментариев на код-ревью."
+        },
+        {
+          "en": "Conducted technical interviews and onboarded new employees.",
+          "ru": "Проводил технические собеседования и онбордил новых сотрудников."
+        }
+      ],
+      "tags": ["API Integration", "Product Development", "Creating Libraries", "Browser Plugins", "Interviewing", "Onboarding", "React", "TypeScript", "React Query"]
+    }
+  ],
+  "activities": {
+    "title": { "en": "Teaching & Mentoring", "ru": "Преподавание и менторство" },
+    "period": { "en": "Jun 2021 — Present", "ru": "Июн 2021 — н.в." },
+    "items": [
+      {
+        "en": "Created new course content for Frontend Developer programs at Yandex Practicum.",
+        "ru": "Создавал новый учебный контент для программ «Фронтенд-разработчик» в Яндекс Практикуме."
+      },
+      {
+        "en": "Supervised students at Yandex Summer Frontend School — guided a student team to build a complete project from scratch.",
+        "ru": "Курировал студентов Летней школы фронтенда Яндекса — провёл студенческую команду через создание полноценного проекта с нуля."
+      },
+      {
+        "en": "Lectured and mentored students at Bauman Moscow State Technical University in collaboration with VK.",
+        "ru": "Читал лекции и менторил студентов МГТУ им. Баумана в коллаборации с VK."
+      }
+    ],
+    "tags": ["Teaching", "Share Knowledge", "Mentoring", "Leading"]
+  }
+}

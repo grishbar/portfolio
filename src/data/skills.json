@@ -1,0 +1,103 @@
+{
+  "categories": [
+    {
+      "id": "backend",
+      "featured": true,
+      "title": { "en": "Backend & Go", "ru": "Бэкенд и Go" },
+      "subtitle": {
+        "en": "Where I'm heading — already shipping to production",
+        "ru": "Куда я иду — уже работает в продакшене"
+      },
+      "skills": [
+        { "name": "Go / Golang", "level": 72, "note": { "en": "Production Mattermost bot @ Navio", "ru": "Продакшен-бот для Mattermost в Navio" } },
+        { "name": "Node.js", "level": 80, "note": { "en": "Services, tooling, APIs", "ru": "Сервисы, тулинг, API" } },
+        { "name": "PHP", "level": 65, "note": { "en": "vk.com backend @ VK", "ru": "Бэкенд vk.com в VK" } },
+        { "name": "REST API design", "level": 85 },
+        { "name": "GraphQL", "level": 70 },
+        { "name": "PostgreSQL / SQL", "level": 60 },
+        { "name": "Python", "level": 55 },
+        { "name": "gRPC / Protobuf", "level": 45, "note": { "en": "Learning now", "ru": "Изучаю сейчас" } }
+      ]
+    },
+    {
+      "id": "infra",
+      "featured": true,
+      "title": { "en": "Infrastructure & DevOps", "ru": "Инфраструктура и DevOps" },
+      "subtitle": {
+        "en": "The glue between code and production",
+        "ru": "Связующее звено между кодом и продакшеном"
+      },
+      "skills": [
+        { "name": "Docker", "level": 75 },
+        { "name": "Nginx", "level": 75, "note": { "en": "Production configs @ Navio", "ru": "Продакшен-конфиги в Navio" } },
+        { "name": "GitHub Actions / CI-CD", "level": 80 },
+        { "name": "Linux / Shell", "level": 70 },
+        { "name": "Deploy pipelines", "level": 78, "note": { "en": "Built bot-driven deploys", "ru": "Деплой через бота" } },
+        { "name": "Git", "level": 90 }
+      ]
+    },
+    {
+      "id": "ai",
+      "featured": true,
+      "title": { "en": "AI Engineering", "ru": "AI-инжиниринг" },
+      "subtitle": {
+        "en": "LLMs as a tool, not a buzzword",
+        "ru": "LLM как инструмент, а не баззворд"
+      },
+      "skills": [
+        { "name": "LLM Integration", "level": 82, "note": { "en": "Bot answers via Cursor CLI", "ru": "Ответы бота через Cursor CLI" } },
+        { "name": "Prompt Engineering", "level": 85 },
+        { "name": "Cursor CLI / AI tooling", "level": 88 },
+        { "name": "AI-driven UI", "level": 75 }
+      ]
+    },
+    {
+      "id": "languages",
+      "title": { "en": "Languages", "ru": "Языки программирования" },
+      "skills": [
+        { "name": "TypeScript", "level": 95 },
+        { "name": "JavaScript", "level": 95 },
+        { "name": "Go", "level": 72 },
+        { "name": "PHP", "level": 65 },
+        { "name": "Python", "level": 55 },
+        { "name": "HTML / CSS", "level": 95 }
+      ]
+    },
+    {
+      "id": "frontend",
+      "title": { "en": "Frontend Core", "ru": "Фронтенд-ядро" },
+      "skills": [
+        { "name": "React", "level": 95 },
+        { "name": "Effector", "level": 88 },
+        { "name": "Redux", "level": 85 },
+        { "name": "TanStack Query / Table / Router / Form", "level": 85 },
+        { "name": "React Hook Form", "level": 85 },
+        { "name": "Rendering performance", "level": 92, "note": { "en": "+7% TTI/FCP at 50M DAU", "ru": "+7% TTI/FCP при 50M DAU" } },
+        { "name": "Design systems", "level": 88 },
+        { "name": "LESS / SASS / SCSS", "level": 90 }
+      ]
+    },
+    {
+      "id": "tooling",
+      "title": { "en": "Tooling & Ecosystem", "ru": "Тулинг и экосистема" },
+      "skills": [
+        { "name": "NPM package authoring", "level": 85 },
+        { "name": "Browser plugins", "level": 80 },
+        { "name": "Vite / Webpack", "level": 85 },
+        { "name": "Yup / Validation", "level": 85 },
+        { "name": "Testing", "level": 75 },
+        { "name": "Jira / Confluence", "level": 90 }
+      ]
+    }
+  ],
+  "softSkills": [
+    { "en": "Team Leadership", "ru": "Лидерство в команде" },
+    { "en": "Mentoring", "ru": "Менторство" },
+    { "en": "Teaching", "ru": "Преподавание" },
+    { "en": "Product Thinking", "ru": "Продуктовое мышление" },
+    { "en": "Project Ownership", "ru": "Ответственность за проект" },
+    { "en": "Technical Interviewing", "ru": "Технические собеседования" },
+    { "en": "Onboarding", "ru": "Онбординг" },
+    { "en": "Cross-team Collaboration", "ru": "Кросс-командная работа" }
+  ]
+}

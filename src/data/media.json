@@ -1,0 +1,48 @@
+{
+  "_comment": "Media files for each company. Put files into assets/<company>/ and list them here. `src` is the path relative to the assets/ folder, starting with /. Supported types: image, video. Example: put demo.jpg into assets/navio/ and add { \"type\": \"image\", \"src\": \"/navio/demo.jpg\", \"caption\": { \"en\": \"...\", \"ru\": \"...\" } }",
+  "navio": [
+    {
+      "type": "image",
+      "src": "/navio/teleops_entrypoint.jpg",
+      "caption": {
+        "en": "Fleet map — live vehicle locations and status",
+        "ru": "Автопарк — карта флота и статусы машин"
+      }
+    },
+    {
+      "type": "image",
+      "src": "/navio/teleops_rover_mointoring.jpg",
+      "caption": {
+        "en": "Monitoring cockpit — cameras, 3D viz, telemetry",
+        "ru": "Мониторинг — камеры, 3D-визуализация, телеметрия"
+      }
+    },
+    {
+      "type": "video",
+      "src": "/navio/teleops_rover_control.mp4",
+      "caption": {
+        "en": "Remote vehicle control",
+        "ru": "Удалённое управление автомобилем"
+      }
+    }
+  ],
+  "vk": [
+    {
+      "type": "image",
+      "src": "/vk/news_feed.png",
+      "caption": { "en": "VK news feed — 50M+ DAU", "ru": "Лента новостей ВК — 50M+ DAU" }
+    },
+    {
+      "type": "image",
+      "src": "/vk/friends_page.png",
+      "caption": { "en": "Friends pages rewritten from PHP + JS to React", "ru": "Страницы друзей, переписанные с PHP + JS на React" }
+    }
+  ],
+  "yandex": [
+    {
+      "type": "image",
+      "src": "/yandex/business_trips.png",
+      "caption": { "en": "Yandex Business Trips", "ru": "Яндекс Командировки" }
+    }
+  ]
+}

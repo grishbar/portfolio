@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "about": { "en": "About", "ru": "Обо мне" },
+    "experience": { "en": "Experience", "ru": "Опыт" },
+    "skills": { "en": "Skills", "ru": "Навыки" },
+    "teaching": { "en": "Teaching", "ru": "Преподавание" },
+    "education": { "en": "Education", "ru": "Образование" },
+    "contact": { "en": "Contact", "ru": "Контакты" }
+  },
+  "hero": {
+    "hello": { "en": "Hi, I'm", "ru": "Привет, я" },
+    "downloadCV": { "en": "Download CV", "ru": "Скачать резюме" },
+    "contactMe": { "en": "Contact me", "ru": "Связаться" },
+    "scrollDown": { "en": "scroll to explore", "ru": "листай вниз" },
+    "openToWork": { "en": "Open to Frontend & Go / Backend roles", "ru": "Открыт к фронтенд и Go / бэкенд-позициям" }
+  },
+  "about": {
+    "kicker": { "en": "01 · About", "ru": "01 · Обо мне" },
+    "photoSoon": { "en": "photo incoming", "ru": "скоро здесь будет фото" }
+  },
+  "experience": {
+    "kicker": { "en": "02 · Experience", "ru": "02 · Опыт" },
+    "title": { "en": "Where I've built things", "ru": "Где я создавал продукты" },
+    "backendBadge": { "en": "backend", "ru": "бэкенд" },
+    "mediaSoon": {
+      "en": "Media from this chapter is on its way — demos, screenshots and photos will appear here.",
+      "ru": "Медиа из этой главы уже в пути — демо, скриншоты и фото появятся здесь."
+    },
+    "growthPath": { "en": "Growth path", "ru": "Путь роста" },
+    "lightbox": {
+      "label": { "en": "Media gallery", "ru": "Галерея медиа" },
+      "close": { "en": "Close", "ru": "Закрыть" },
+      "prev": { "en": "Previous", "ru": "Назад" },
+      "next": { "en": "Next", "ru": "Далее" },
+      "open": { "en": "Open fullscreen", "ru": "Открыть на весь экран" }
+    }
+  },
+  "skills": {
+    "kicker": { "en": "03 · Skills", "ru": "03 · Навыки" },
+    "title": { "en": "Weapons of choice", "ru": "Мой арсенал" },
+    "subtitle": {
+      "en": "Frontend is my foundation, backend is my trajectory. The featured cards are where I invest most of my energy right now.",
+      "ru": "Фронтенд — мой фундамент, бэкенд — моя траектория. Выделенные карточки — то, куда я вкладываю больше всего энергии прямо сейчас."
+    },
+    "softTitle": { "en": "Beyond code", "ru": "За пределами кода" }
+  },
+  "teaching": {
+    "kicker": { "en": "04 · Part-time", "ru": "04 · Параллельно" }
+  },
+  "education": {
+    "kicker": { "en": "05 · Education & Languages", "ru": "05 · Образование и языки" },
+    "title": { "en": "Where it started", "ru": "С чего всё началось" },
+    "langTitle": { "en": "Spoken languages", "ru": "Языки" }
+  },
+  "contact": {
+    "kicker": { "en": "06 · Contact", "ru": "06 · Контакты" },
+    "title": { "en": "Let's build something", "ru": "Давайте создадим что-нибудь" },
+    "subtitle": {
+      "en": "Looking for a strong frontend engineer, a Go / backend hire, or someone who speaks both sides of the API? Drop me a line.",
+      "ru": "Ищете сильного фронтендера, Go / бэкенд-инженера или человека, который говорит на обеих сторонах API? Напишите мне."
+    },
+    "form": {
+      "name": { "en": "Your name", "ru": "Ваше имя" },
+      "email": { "en": "Your email", "ru": "Ваш email" },
+      "message": { "en": "Your message", "ru": "Ваше сообщение" },
+      "send": { "en": "Send message", "ru": "Отправить" },
+      "sending": { "en": "Sending…", "ru": "Отправляю…" },
+      "success": { "en": "Message sent! I'll get back to you soon.", "ru": "Сообщение отправлено! Скоро отвечу." },
+      "error": {
+        "en": "Couldn't send via the form — opening your email client instead.",
+        "ru": "Не удалось отправить через форму — открываю ваш почтовый клиент."
+      },
+      "namePlaceholder": { "en": "John Doe", "ru": "Иван Иванов" },
+      "emailPlaceholder": { "en": "john@company.com", "ru": "ivan@company.ru" },
+      "messagePlaceholder": {
+        "en": "Hi Grigorii! We're looking for a frontend / Go engineer…",
+        "ru": "Привет, Григорий! Мы ищем фронтенд / Go-инженера…"
+      }
+    },
+    "or": { "en": "or reach me directly", "ru": "или напрямую" }
+  },
+  "footer": {
+    "madeWith": { "en": "Designed & built by Grigorii Barabanov", "ru": "Спроектировано и собрано Григорием Барабановым" },
+    "lastUpdated": { "en": "Last updated — July 2026", "ru": "Обновлено — июль 2026" }
+  }
+}
