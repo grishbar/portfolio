@@ -39,8 +39,8 @@
     "kicker": { "en": "03 · Skills", "ru": "03 · Навыки" },
     "title": { "en": "Weapons of choice", "ru": "Мой арсенал" },
     "subtitle": {
-      "en": "Frontend is my foundation, backend is my trajectory. The featured cards are where I invest most of my energy right now.",
-      "ru": "Фронтенд — мой фундамент, бэкенд — моя траектория. Выделенные карточки — то, куда я вкладываю больше всего энергии прямо сейчас."
+      "en": "Frontend is my foundation, backend is my trajectory. Featured groups are where I invest most of my energy right now.",
+      "ru": "Фронтенд — мой фундамент, бэкенд — моя траектория. Выделенные группы — то, куда я вкладываю больше всего энергии прямо сейчас."
     },
     "softTitle": { "en": "Beyond code", "ru": "За пределами кода" }
   },

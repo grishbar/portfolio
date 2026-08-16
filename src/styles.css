@@ -1266,50 +1266,25 @@ button {
 .skill-card__subtitle {
   font-size: 13.5px;
   color: var(--text-faint);
-  margin-bottom: 18px;
 }
 
-.skill-card__list {
+.skill-card__tags {
   list-style: none;
   display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-top: 14px;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
 }
 
-.skill-row__top {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 12px;
-  margin-bottom: 6px;
+.skill-card__tags .tag {
+  display: inline-block;
+  font-size: 13px;
+  padding: 7px 14px;
 }
 
-.skill-row__name {
-  font-size: 14.5px;
-  font-weight: 500;
-}
-
-.skill-row__note {
-  font-family: var(--font-mono);
-  font-size: 11.5px;
+.skill-card--featured .tag:hover {
   color: var(--accent);
-  opacity: 0.85;
-  text-align: right;
-}
-
-.skill-row__bar {
-  height: 5px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
-  overflow: hidden;
-}
-
-.skill-row__fill {
-  display: block;
-  height: 100%;
-  border-radius: 999px;
-  background: var(--gradient);
+  border-color: rgba(34, 211, 238, 0.45);
 }
 
 .skills__soft-title {

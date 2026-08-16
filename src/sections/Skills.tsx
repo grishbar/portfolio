@@ -27,26 +27,17 @@ export function Skills() {
               {'subtitle' in category && category.subtitle && (
                 <p className="skill-card__subtitle">{t(category.subtitle)}</p>
               )}
-              <ul className="skill-card__list">
-                {category.skills.map((skill) => (
-                  <li key={skill.name} className="skill-row" data-cursor="hover">
-                    <div className="skill-row__top">
-                      <span className="skill-row__name">{skill.name}</span>
-                      {'note' in skill && skill.note && (
-                        <span className="skill-row__note">{t(skill.note)}</span>
-                      )}
-                    </div>
-                    <div className="skill-row__bar">
-                      <motion.span
-                        className="skill-row__fill"
-                        initial={{ width: 0 }}
-                        whileInView={{ width: `${skill.level}%` }}
-                        viewport={{ once: true, margin: '-40px' }}
-                        transition={{ duration: 1.1, ease: [0.21, 0.7, 0.3, 1] }}
-                      />
-                    </div>
-                  </li>
-                ))}
+              <ul className="skill-card__tags">
+                {category.skills.map((skill) => {
+                  const note = 'note' in skill && skill.note ? t(skill.note) : undefined
+                  return (
+                    <li key={skill.name}>
+                      <span className="tag" data-cursor="hover" title={note}>
+                        {skill.name}
+                      </span>
+                    </li>
+                  )
+                })}
               </ul>
             </Reveal>
           ))}

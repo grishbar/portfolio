@@ -19,7 +19,7 @@ All text on the site is data-driven. Every localized string is an object `{ "en"
 |---|---|
 | `src/data/profile.json` | Name, roles, tagline, about paragraphs, stats, contacts, education, spoken languages, CV path, photo path |
 | `src/data/experience.json` | Jobs (Navio, VK, Yandex) with highlights, tags, periods + teaching/mentoring activities. Highlights with `"backend": true` get the green "backend" badge |
-| `src/data/skills.json` | Skill categories with levels (0–100) and optional notes. Categories with `"featured": true` are visually highlighted |
+| `src/data/skills.json` | Skill categories as tag lists with optional notes (shown on hover). Categories with `"featured": true` are visually highlighted |
 | `src/data/media.json` | Media galleries per company (see below) |
 | `src/data/ui.json` | All UI strings: nav, buttons, form labels, placeholders |
 
