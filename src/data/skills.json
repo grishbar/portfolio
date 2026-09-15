@@ -3,85 +3,84 @@
     {
       "id": "backend",
       "featured": true,
-      "title": { "en": "Backend & Go", "ru": "Бэкенд и Go" },
+      "title": { "en": "Languages & backend", "ru": "Языки и бэкенд" },
       "subtitle": {
-        "en": "Where I'm heading — already shipping to production",
-        "ru": "Куда я иду — уже работает в продакшене"
+        "en": "Node.js and TypeScript in production — plus Go, Python and PHP",
+        "ru": "Node.js и TypeScript в продакшене — плюс Go, Python и PHP"
       },
       "skills": [
+        { "name": "TypeScript" },
+        { "name": "JavaScript" },
+        { "name": "Node.js", "note": { "en": "Services, APIs, permissions @ Navio", "ru": "Сервисы, API, права доступа в Navio" } },
+        { "name": "Express" },
+        { "name": "NestJS" },
+        { "name": "REST APIs" },
+        { "name": "Microservices" },
         { "name": "Go", "note": { "en": "Production Mattermost bot @ Navio", "ru": "Продакшен-бот для Mattermost в Navio" } },
-        { "name": "Node.js", "note": { "en": "Services, tooling, APIs", "ru": "Сервисы, тулинг, API" } },
-        { "name": "PHP", "note": { "en": "vk.com backend @ VK", "ru": "Бэкенд vk.com в VK" } },
-        { "name": "REST API" },
-        { "name": "GraphQL" },
+        { "name": "Python", "note": { "en": "Microservices @ Navio", "ru": "Микросервисы в Navio" } },
+        { "name": "PHP", "note": { "en": "vk.com backend @ VK", "ru": "Бэкенд vk.com в VK" } }
+      ]
+    },
+    {
+      "id": "data",
+      "featured": true,
+      "title": { "en": "Databases & BaaS", "ru": "Базы данных и BaaS" },
+      "subtitle": {
+        "en": "Where the services persist",
+        "ru": "Где живут данные сервисов"
+      },
+      "skills": [
         { "name": "PostgreSQL" },
-        { "name": "Python" },
-        { "name": "gRPC", "note": { "en": "Learning now", "ru": "Изучаю сейчас" } }
+        { "name": "MongoDB" },
+        { "name": "Firebase", "note": { "en": "NextShift mobile app", "ru": "Мобильное приложение NextShift" } }
       ]
     },
     {
       "id": "infra",
       "featured": true,
-      "title": { "en": "Infrastructure & DevOps", "ru": "Инфраструктура и DevOps" },
+      "title": { "en": "Infrastructure & tooling", "ru": "Инфраструктура и тулинг" },
       "subtitle": {
         "en": "The glue between code and production",
         "ru": "Связующее звено между кодом и продакшеном"
       },
       "skills": [
         { "name": "Docker" },
-        { "name": "Nginx", "note": { "en": "Production configs @ Navio", "ru": "Продакшен-конфиги в Navio" } },
+        { "name": "Nginx" },
+        { "name": "Git" },
         { "name": "GitHub Actions" },
-        { "name": "CI/CD" },
-        { "name": "Linux" },
-        { "name": "Shell" },
-        { "name": "Deploy pipelines", "note": { "en": "Built bot-driven deploys", "ru": "Деплой через бота" } },
-        { "name": "Git" }
-      ]
-    },
-    {
-      "id": "ai",
-      "featured": true,
-      "title": { "en": "AI Engineering", "ru": "AI-инжиниринг" },
-      "subtitle": {
-        "en": "LLMs as a tool, not a buzzword",
-        "ru": "LLM как инструмент, а не баззворд"
-      },
-      "skills": [
-        { "name": "LLM Integration", "note": { "en": "Bot answers via Cursor CLI", "ru": "Ответы бота через Cursor CLI" } },
-        { "name": "Prompt Engineering" },
-        { "name": "Cursor CLI" },
-        { "name": "AI-driven UI" }
+        { "name": "Deployment automation" },
+        { "name": "NPM packages", "note": { "en": "Shared design tokens @ Yandex", "ru": "Общие токены дизайна в Яндексе" } }
       ]
     },
     {
       "id": "frontend",
-      "title": { "en": "Frontend Core", "ru": "Фронтенд-ядро" },
+      "title": { "en": "Frontend & mobile", "ru": "Фронтенд и мобайл" },
       "skills": [
-        { "name": "TypeScript" },
-        { "name": "JavaScript" },
         { "name": "React" },
-        { "name": "HTML / CSS" },
+        { "name": "React Native", "note": { "en": "NextShift — shipped to release", "ru": "NextShift — доведён до релиза" } },
+        { "name": "Next.js" },
+        { "name": "Vite" },
         { "name": "Effector" },
         { "name": "Redux" },
+        { "name": "React Hook Form" },
         { "name": "TanStack Query" },
         { "name": "TanStack Table" },
         { "name": "TanStack Router" },
-        { "name": "React Hook Form" },
-        { "name": "Rendering performance", "note": { "en": "+7% TTI/FCP at 50M DAU", "ru": "+7% TTI/FCP при 50M DAU" } },
-        { "name": "Design systems" },
-        { "name": "Sass / SCSS" }
+        { "name": "TanStack Form" },
+        { "name": "HTML / CSS" },
+        { "name": "LESS" },
+        { "name": "Sass / SCSS" },
+        { "name": "Rendering performance", "note": { "en": "+7% TTI/FCP at 50M DAU", "ru": "+7% TTI/FCP при 50M DAU" } }
       ]
     },
     {
-      "id": "tooling",
-      "title": { "en": "Tooling & Ecosystem", "ru": "Тулинг и экосистема" },
+      "id": "ai",
+      "title": { "en": "AI & integrations", "ru": "AI и интеграции" },
       "skills": [
-        { "name": "npm packages" },
-        { "name": "Browser plugins" },
-        { "name": "Vite" },
-        { "name": "Webpack" },
-        { "name": "Yup" },
-        { "name": "Testing" },
+        { "name": "LLM Integration", "note": { "en": "Bot answers via Cursor CLI", "ru": "Ответы бота через Cursor CLI" } },
+        { "name": "Prompt Engineering" },
+        { "name": "Cursor CLI" },
+        { "name": "Mattermost bots" },
         { "name": "Jira" },
         { "name": "Confluence" }
       ]

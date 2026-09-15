@@ -43,21 +43,31 @@ export function Experience() {
               >
                 <header className="job-card__header">
                   <div className="job-card__brand">
-                    <a
-                      className="job-card__logo"
-                      href={job.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label={`${job.company} website`}
-                    >
-                      <img src={job.logo} alt={`${job.company} logo`} loading="lazy" />
-                    </a>
+                    {'url' in job && job.url ? (
+                      <a
+                        className="job-card__logo"
+                        href={job.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={`${job.company} website`}
+                      >
+                        <img src={job.logo} alt={`${job.company} logo`} loading="lazy" />
+                      </a>
+                    ) : (
+                      <span className="job-card__logo">
+                        <img src={job.logo} alt={`${job.company} logo`} />
+                      </span>
+                    )}
                     <div>
                       <h3 className="job-card__company">
-                        <a href={job.url} target="_blank" rel="noreferrer">
-                          {job.company}
-                          <ExternalIcon />
-                        </a>
+                        {'url' in job && job.url ? (
+                          <a href={job.url} target="_blank" rel="noreferrer">
+                            {job.company}
+                            <ExternalIcon />
+                          </a>
+                        ) : (
+                          job.company
+                        )}
                       </h3>
                       <p className="job-card__role">{t(job.role)}</p>
                     </div>
@@ -92,7 +102,9 @@ export function Experience() {
                   ))}
                 </ul>
 
-                <MediaGallery items={mediaByCompany[job.id] ?? []} />
+                {job.id in mediaByCompany && (
+                  <MediaGallery items={mediaByCompany[job.id] ?? []} />
+                )}
 
                 <footer className="job-card__tags">
                   {job.tags.map((tag) => (

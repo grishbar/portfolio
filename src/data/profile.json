@@ -4,38 +4,38 @@
   "cv": "/cv/Grigorii_Barabanov_CV.pdf",
   "cvFileName": "Grigorii_Barabanov_CV.pdf",
   "roles": [
-    { "en": "Frontend Team Lead", "ru": "Фронтенд Тимлид" },
-    { "en": "Go Backend Engineer", "ru": "Go Бэкенд-инженер" },
-    { "en": "Full-Stack Developer", "ru": "Фулстек-разработчик" },
-    { "en": "AI Integration Engineer", "ru": "Инженер AI-интеграций" },
+    { "en": "Senior Full Stack Engineer", "ru": "Старший фулстек-инженер" },
+    { "en": "Backend Engineer / Tech Lead", "ru": "Бэкенд-инженер / Техлид" },
+    { "en": "Node.js & TypeScript", "ru": "Node.js и TypeScript" },
+    { "en": "Team Lead of 8", "ru": "Тимлид команды из 8" },
     { "en": "Mentor & Teacher", "ru": "Ментор и преподаватель" }
   ],
   "tagline": {
-    "en": "Engineer with 5+ years of expertise building high-scale web products at VK, Yandex and Navio. Deep frontend mastery — from rendering performance to design systems — now channeling it into backend engineering with Go: bots, services, APIs and infrastructure. Plus a growing edge in applied AI: LLM integration, prompt engineering and AI-driven tooling.",
-    "ru": "Инженер с опытом 5+ лет в разработке высоконагруженных веб-продуктов в VK, Яндексе и Navio. Глубокая экспертиза во фронтенде — от производительности рендеринга до дизайн-систем — которую я направляю в бэкенд-разработку на Go: боты, сервисы, API и инфраструктура. Плюс растущая экспертиза в прикладном AI: интеграция LLM, промпт-инжиниринг и AI-инструменты."
+    "en": "Software engineer and tech lead with 8+ years delivering backend services and frontend features with Node.js, TypeScript and React. I lead a team of 8, own delivery from planning to production, and modernize legacy systems into products people actually use.",
+    "ru": "Инженер и техлид с опытом 8+ лет: бэкенд-сервисы и фронтенд-фичи на Node.js, TypeScript и React. Руковожу командой из 8 человек, веду поставку от планирования до продакшена и модернизирую легаси в продукты, которыми пользуются."
   },
   "about": {
-    "title": { "en": "Frontend roots. Backend ambitions.", "ru": "Фронтенд-корни. Бэкенд-амбиции." },
+    "title": { "en": "Backend services. Frontend features.", "ru": "Бэкенд-сервисы. Фронтенд-фичи." },
     "paragraphs": [
       {
-        "en": "I've spent 5+ years shipping products used by millions: news feed at VK with 50M+ daily users, business services at Yandex, and a teleoperations platform for autonomous vehicles at Navio, where I lead a team of 8 engineers.",
-        "ru": "Больше 5 лет я создаю продукты, которыми пользуются миллионы: лента новостей ВКонтакте с 50M+ активных пользователей в день, бизнес-сервисы Яндекса и платформа телеопераций для беспилотных автомобилей в Navio, где я руковожу командой из 8 инженеров."
+        "en": "I've spent 8+ years shipping products used by millions: news feed at VK with 50M+ daily users, business services at Yandex, and a teleoperations platform for autonomous vehicles at Navio, where I lead a team of 8 engineers.",
+        "ru": "Больше 8 лет я создаю продукты, которыми пользуются миллионы: лента новостей ВКонтакте с 50M+ активных пользователей в день, бизнес-сервисы Яндекса и платформа телеопераций для беспилотных автомобилей в Navio, где я руковожу командой из 8 инженеров."
       },
       {
-        "en": "But I've never been \"just a frontender\". At VK I worked with the PHP backend of vk.com daily and rewrote legacy PHP + JS pages. At Navio I built a production Mattermost bot in Go that talks to Jira, Confluence and our deploy pipeline, and can even answer project questions through Cursor CLI and LLMs. I design REST APIs, write Node.js services, configure Nginx and Docker.",
-        "ru": "Но я никогда не был «просто фронтендером». В VK я ежедневно работал с PHP-бэкендом vk.com и переписывал легаси-страницы с PHP + JS. В Navio я написал продакшен-бота для Mattermost на Go, который интегрирован с Jira, Confluence и деплой-пайплайном, и даже отвечает на вопросы о проекте через Cursor CLI и LLM. Я проектирую REST API, пишу сервисы на Node.js, настраиваю Nginx и Docker."
+        "en": "I deliver both sides of the stack. At Navio I maintain Python microservices, ship new Go services, and built a staff permissions service in Node.js and TypeScript. At VK I developed backend in PHP and Go — including a migration off the legacy PHP stack — and shipped profile features in Node.js alongside React. I design REST APIs, work with PostgreSQL, and run Docker and Nginx in production.",
+        "ru": "Я закрываю обе стороны стека. В Navio поддерживаю Python-микросервисы, пишу новые сервисы на Go и с нуля собрал сервис прав доступа на Node.js и TypeScript. В VK разрабатывал бэкенд на PHP и Go — включая миграцию с легаси-стека PHP — и делал фичи профиля на Node.js вместе с React. Проектирую REST API, работаю с PostgreSQL, запускаю Docker и Nginx в продакшене."
       },
       {
-        "en": "I'm deliberately growing into backend with Go — but I'm equally open to strong frontend and full-stack roles. I bring product thinking, an obsession with performance, and the rare superpower of understanding both sides of the API.",
-        "ru": "Я осознанно расту в бэкенд на Go — но так же открыт к сильным фронтенд- и фулстек-ролям. Забираю с собой продуктовое мышление, одержимость производительностью и редкую суперсилу: понимание обеих сторон API."
+        "en": "I own delivery end to end: planning, collaboration with product and QA, and production. Express, PostgreSQL, REST APIs and microservices are the core; NestJS, Next.js, Vite, Go and Python round it out. I'm looking for senior full-stack and backend roles where that ownership matters.",
+        "ru": "Я веду поставку целиком: планирование, работа с продуктом и QA, продакшен. Ядро — Express, PostgreSQL, REST API и микросервисы; рядом — NestJS, Next.js, Vite, Go и Python. Ищу старшие фулстек- и бэкенд-роли, где эта ответственность за результат нужна."
       }
     ]
   },
   "stats": [
-    { "value": "5+", "label": { "en": "years of engineering", "ru": "лет в разработке" } },
+    { "value": "8+", "label": { "en": "years of engineering", "ru": "лет в разработке" } },
     { "value": "8", "label": { "en": "engineers in my team", "ru": "инженеров в моей команде" } },
     { "value": "50M+", "label": { "en": "DAU of products I built", "ru": "DAU продуктов, что я делал" } },
-    { "value": "3", "label": { "en": "backend languages: Go, PHP, Node.js", "ru": "языка бэкенда: Go, PHP, Node.js" } }
+    { "value": "Node.js", "label": { "en": "TypeScript · Express · PostgreSQL", "ru": "TypeScript · Express · PostgreSQL" } }
   ],
   "contacts": {
     "email": "grishbar@mail.ru",

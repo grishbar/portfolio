@@ -12,7 +12,7 @@
     "downloadCV": { "en": "Download CV", "ru": "Скачать резюме" },
     "contactMe": { "en": "Contact me", "ru": "Связаться" },
     "scrollDown": { "en": "scroll to explore", "ru": "листай вниз" },
-    "openToWork": { "en": "Open to Frontend & Go / Backend roles", "ru": "Открыт к фронтенд и Go / бэкенд-позициям" }
+    "openToWork": { "en": "Open to Full Stack & Backend roles", "ru": "Открыт к фулстек- и бэкенд-позициям" }
   },
   "about": {
     "kicker": { "en": "01 · About", "ru": "01 · Обо мне" },
@@ -39,8 +39,8 @@
     "kicker": { "en": "03 · Skills", "ru": "03 · Навыки" },
     "title": { "en": "Weapons of choice", "ru": "Мой арсенал" },
     "subtitle": {
-      "en": "Frontend is my foundation, backend is my trajectory. Featured groups are where I invest most of my energy right now.",
-      "ru": "Фронтенд — мой фундамент, бэкенд — моя траектория. Выделенные группы — то, куда я вкладываю больше всего энергии прямо сейчас."
+      "en": "Node.js and TypeScript are the core. I ship backend services, frontend features, and the integrations in between.",
+      "ru": "Ядро — Node.js и TypeScript. Доставляю бэкенд-сервисы, фронтенд-фичи и интеграции между ними."
     },
     "softTitle": { "en": "Beyond code", "ru": "За пределами кода" }
   },
@@ -56,8 +56,8 @@
     "kicker": { "en": "06 · Contact", "ru": "06 · Контакты" },
     "title": { "en": "Let's build something", "ru": "Давайте создадим что-нибудь" },
     "subtitle": {
-      "en": "Looking for a strong frontend engineer, a Go / backend hire, or someone who speaks both sides of the API? Drop me a line.",
-      "ru": "Ищете сильного фронтендера, Go / бэкенд-инженера или человека, который говорит на обеих сторонах API? Напишите мне."
+      "en": "Looking for a senior full-stack or backend engineer who owns delivery from planning to production? Drop me a line.",
+      "ru": "Ищете старшего фулстек- или бэкенд-инженера, который ведёт поставку от планирования до продакшена? Напишите мне."
     },
     "form": {
       "name": { "en": "Your name", "ru": "Ваше имя" },
@@ -73,14 +73,14 @@
       "namePlaceholder": { "en": "John Doe", "ru": "Иван Иванов" },
       "emailPlaceholder": { "en": "john@company.com", "ru": "ivan@company.ru" },
       "messagePlaceholder": {
-        "en": "Hi Grigorii! We're looking for a frontend / Go engineer…",
-        "ru": "Привет, Григорий! Мы ищем фронтенд / Go-инженера…"
+        "en": "Hi Grigorii! We're looking for a full-stack / backend engineer…",
+        "ru": "Привет, Григорий! Мы ищем фулстек / бэкенд-инженера…"
       }
     },
     "or": { "en": "or reach me directly", "ru": "или напрямую" }
   },
   "footer": {
     "madeWith": { "en": "Designed & built by Grigorii Barabanov", "ru": "Спроектировано и собрано Григорием Барабановым" },
-    "lastUpdated": { "en": "Last updated — July 2026", "ru": "Обновлено — июль 2026" }
+    "lastUpdated": { "en": "Last updated — September 2026", "ru": "Обновлено — сентябрь 2026" }
   }
 }
